@@ -54,3 +54,13 @@ const terrain11 = [5, 4, 3, 2, 1, 2, 3, 4, 50, 5, 4, 3, 2, 1, 2, 3, 4, 5];
 it("It should be return 0 for terrain11 ", () => {
   expect(calculateRetention(terrain11)).toBe(32);
 });
+
+const terrain12 = [3, 2, 1, 2, 3, 5, 4, 3, 2, 1, 2, 3, 4, 5, 3, 2, 1, 2, 3];
+it("It should be return 0 for terrain12 ", () => {
+  expect(calculateRetention(terrain12)).toBe(24);
+});
+
+const terrain13 = [3, 2, 1, 2, 3, 5, 20, 4, 3, 2, 1, 2, 3, 4, 5, 3, 2, 1, 2, 3];
+it("It should be return 0 for terrain13 ", () => {
+  expect(calculateRetention(terrain13)).toBe(24);
+});
